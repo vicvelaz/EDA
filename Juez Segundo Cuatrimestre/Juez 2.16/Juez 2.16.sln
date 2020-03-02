@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Juez 2.16", "Juez 2.16\Juez 2.16.vcxproj", "{CC121191-DBC0-413E-A322-393FF2E49236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Debug|x64.ActiveCfg = Debug|x64
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Debug|x64.Build.0 = Debug|x64
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Debug|x86.Build.0 = Debug|Win32
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Release|x64.ActiveCfg = Release|x64
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Release|x64.Build.0 = Release|x64
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Release|x86.ActiveCfg = Release|Win32
+		{CC121191-DBC0-413E-A322-393FF2E49236}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73518706-F87F-42F8-9987-9A58B7C0FE26}
+	EndGlobalSection
+EndGlobal

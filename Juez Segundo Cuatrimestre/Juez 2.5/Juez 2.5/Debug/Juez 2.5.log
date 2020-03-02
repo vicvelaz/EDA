@@ -1,0 +1,12 @@
+﻿  Source.cpp
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\source.cpp(28): warning C4018: '<': no coinciden signed/unsigned
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\source.cpp(43): warning C4018: '<': no coinciden signed/unsigned
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\conjunto.h(106): warning C4018: '<': no coinciden signed/unsigned
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\conjunto.h(104): note: durante la compilación de la función miembro de plantilla clase de 'void set<int>::eraseLowerElement(void)'
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\source.cpp(30): note: vea la referencia a la creación de instancias de plantilla de función 'void set<int>::eraseLowerElement(void)' que se está compilando
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\source.cpp(24): note: vea la referencia a la creación de instancias de plantilla clase de 'set<int>' que se está compilando
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\conjunto.h(166): warning C4018: '<': no coinciden signed/unsigned
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\source.cpp(35): note: vea la referencia a la creación de instancias de plantilla de función 'std::ostream &operator <<<int>(std::ostream &,set<int>)' que se está compilando
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\conjunto.h(102): warning C4715: 'set<int>::lowerElement': no todas las rutas de acceso de control devuelven un valor
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.5\juez 2.5\conjunto.h(102): warning C4715: 'set<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::lowerElement': no todas las rutas de acceso de control devuelven un valor
+  Juez 2.5.vcxproj -> D:\Victor\Repositorio Visual Studio\Juez Segundo Cuatrimestre\Juez 2.5\Debug\Juez 2.5.exe

@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(23): error C2760: error de sintaxis: token "identificador" donde se esperaba "especificador de tipo"
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(41): note: vea la referencia a la creación de instancias de plantilla clase de 'duplicarLista<T>' que se está compilando
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(33): error C3861: 'Nodo': no se encontró el identificador
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(33): error C3861: 'act': no se encontró el identificador
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(34): error C3861: 'act': no se encontró el identificador
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(36): error C3861: 'act': no se encontró el identificador
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.8\juez 2.8\duplicarlista.h(37): error C3861: 'act': no se encontró el identificador

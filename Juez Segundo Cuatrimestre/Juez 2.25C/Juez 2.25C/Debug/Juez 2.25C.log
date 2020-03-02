@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25c\juez 2.25c\source.cpp(64): error C2440: 'return': no se puede realizar la conversión de 'initializer list' a 'bintree_ext<std::string>'
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25c\juez 2.25c\source.cpp(64): note: Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25c\juez 2.25c\source.cpp(72): note: vea la referencia a la creación de instancias de plantilla de función 'bintree_ext<std::string> leerArbolPlus<std::string>(T)' que se está compilando
+          with
+          [
+              T=std::string
+          ]

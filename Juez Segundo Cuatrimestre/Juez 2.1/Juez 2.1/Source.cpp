@@ -1,0 +1,71 @@
+﻿// Victor Velazquez Cabrera
+// E68
+
+
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include "hora.h"
+#include <exception>
+#include <string>
+
+
+// función que resuelve el problema
+
+
+// Resuelve un caso de prueba, leyendo de la entrada la
+// configuración, y escribiendo la respuesta
+bool resuelveCaso() {
+	int numTrenes, numHoras;
+	Hora h;
+	std::cin >> numTrenes;
+	std::cin >> numHoras;
+	if (numTrenes ==0 && numHoras==0)
+		return false;
+	std::vector<Hora>trenes(numTrenes);
+	for (int i = 0; i < numTrenes; ++i)
+		std::cin >>trenes[i] ;
+
+	for (int j = 0; j < numHoras; ++j)
+	{
+		try
+		{
+			std::cin >> h;
+			int indice = h.horaSalida(trenes);
+				std::cout << trenes[indice] << '\n';
+		}
+		catch ( std::invalid_argument& ia)
+		{
+			std::cout << ia.what() << '\n';
+		}
+		catch (std::out_of_range& oor)
+		{
+			std::cout << oor.what()<< '\n';
+		}
+	}
+	std::cout << "---" << '\n';	
+
+	return true;
+}
+
+int main() {
+	// Para la entrada por fichero.
+	// Comentar para acepta el reto
+#ifndef DOMJUDGE
+	std::ifstream in("datos.txt");
+	auto cinbuf = std::cin.rdbuf(in.rdbuf()); //save old buf and redirect std::cin to casos.txt
+#endif 
+
+
+	while (resuelveCaso())
+		;
+
+
+	// Para restablecer entrada. Comentar para acepta el reto
+#ifndef DOMJUDGE // para dejar todo como estaba al principio
+	std::cin.rdbuf(cinbuf);
+	system("PAUSE");
+#endif
+
+	return 0;
+}

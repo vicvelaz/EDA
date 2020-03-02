@@ -1,0 +1,9 @@
+﻿  Source.cpp
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\deque_eda.h(58): error C2276: '&': operación no válida de la expresión de función miembro enlazada
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\deque_eda.h(57): note: durante la compilación de la función miembro de plantilla clase de 'void deque<int>::imprimir(void)'
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\source.cpp(70): note: vea la referencia a la creación de instancias de plantilla de función 'void deque<int>::imprimir(void)' que se está compilando
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\source.cpp(19): note: vea la referencia a la creación de instancias de plantilla clase de 'deque<int>' que se está compilando
+d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\deque_eda.h(63): error C2679: '=' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'deque<int>::Nodo *' (o bien no existe una conversión aceptable)
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\deque_eda.h(33): note: puede ser 'deque<int>::Nodo &deque<int>::Nodo::operator =(deque<int>::Nodo &&)'
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\deque_eda.h(33): note: o       'deque<int>::Nodo &deque<int>::Nodo::operator =(const deque<int>::Nodo &)'
+  d:\victor\repositorio visual studio\juez segundo cuatrimestre\juez 2.25d\juez 2.25d\deque_eda.h(63): note: al hacer coincidir la lista de argumentos '(deque<int>::Nodo, deque<int>::Nodo *)'
